@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>you shouldn't have done that.</title>
+    <title>😈 Loop Video</title>
     <style>
       html, body {
         margin: 0;
@@ -9,20 +9,19 @@
         overflow: hidden;
         background: black;
       }
-      video {
+      iframe {
         position: fixed;
         width: 100vw;
         height: 100vh;
-        object-fit: cover;
+        border: none;
       }
     </style>
   </head>
   <body>
-    <video autoplay muted loop playsinline>
-      <source src="https://streamable.com/ryis9r" type="video/mov">
-    </video>
-    <script>
-      document.body.requestFullscreen?.();
-    </script>
+    <iframe 
+      src="https://streamable.com/ryis9r?autoplay=1&loop=1" 
+      allowfullscreen
+      allow="autoplay"
+    ></iframe>
   </body>
 </html>
